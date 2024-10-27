@@ -20,8 +20,8 @@ df = pd.DataFrame(
 #st.table(df)
 
 # st.metric:
-# TCS stock example:
-st.metric("TCS Stock", value ="3220.70", delta="19.10")
+# TCS stock example: inverse/off
+st.metric("TCS Stock", value ="3220.70", delta="19.10", delta_color="off")
 
 
 
