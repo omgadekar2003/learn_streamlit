@@ -24,8 +24,34 @@ df = pd.DataFrame(
 #st.metric("TCS Stock", value ="3220.70", delta="19.10", delta_color="off")
 
 #st.json:
-f = open(r"D:\datum\aa_chatbot\simple_chatbot\prac\all_intents_js.json")
-dt = json.load(f)
+dt = [
+    {
+        "human": "Hello",
+        "bot": "Hi there! How can I assist you today?"
+    },
+    {
+        "human": "What is your name?",
+        "bot": "I'm your friendly chatbot here to help you out!"
+    },
+    {
+        "human": "How do I reset my password?",
+        "bot": "To reset your password, go to the settings page and click on 'Forgot Password.' Follow the instructions from there."
+    },
+    {
+        "human": "Can you tell me a joke?",
+        "bot": "Sure! Why did the scarecrow win an award? Because he was outstanding in his field!"
+    },
+    {
+        "human": "What is the weather like today?",
+        "bot": "I'm not able to check the weather at the moment, but you can look it up on a weather app or website!"
+    },
+    {
+        "human": "Thank you!",
+        "bot": "You're very welcome! Let me know if there's anything else I can help with."
+    }
+]
+
+# Display the data as JSON in Streamlit
 st.json(dt)
 
 
