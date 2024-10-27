@@ -52,7 +52,7 @@ dt = [
 ]
 
 # Display the data as JSON in Streamlit
-st.json(dt)
+st.json(dt,Expanded = False)
 
 
 
