@@ -9,5 +9,5 @@ df = pd.DataFrame(
   columns=["cols" + str(i) for i in range(20)])
 st.write(df)
 
-st.DataFrame(df)
+st.DataFrame(df,height=1000, width= 200)
 
