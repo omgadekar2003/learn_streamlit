@@ -4,6 +4,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import json
+
+#TUTORIAL 2:
+
 st.title("tutorial 2")
 # DATAFRAME
 df = pd.DataFrame(
@@ -53,8 +56,8 @@ dt = [
 
 # Display the data as JSON in Streamlit
 st.json(dt,expanded = False)
-
-
+#########################################################################
+# TUTORIAL 3: streamlit st.line_chart , st.bar_chart , st.pyplot , st.map
 
 
 
