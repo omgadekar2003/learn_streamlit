@@ -11,7 +11,7 @@ st.write(df)
 
 #st.DataFrame(df,height=1000, width= 200)
 
-st.DataFrame(np.random.randn(50,20))
+#st.DataFrame(np.random.randn(50,20))
 
 # TABLE:
 # there is not any customization or thing it work on only printing data in the form of table:
