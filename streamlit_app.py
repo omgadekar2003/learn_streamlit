@@ -1,3 +1,5 @@
+# tutorial 1 : st.text,st.write, st.code, st.write(st.write), st.write(st.error), st.header, st.subheader
+
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -15,4 +17,11 @@ df = pd.DataFrame(
 
 # TABLE:
 # there is not any customization or thing it work on only printing data in the form of table:
-st.table(df)
+#st.table(df)
+
+# st.metric:
+# TCS stock example:
+st.metric("TCS Stock", value ="3220.70", delta="19.10")
+
+
+
