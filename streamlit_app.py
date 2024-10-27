@@ -21,7 +21,14 @@ df = pd.DataFrame(
 
 # st.metric:
 # TCS stock example: inverse/off
-st.metric("TCS Stock", value ="3220.70", delta="19.10", delta_color="off")
+#st.metric("TCS Stock", value ="3220.70", delta="19.10", delta_color="off")
+
+#st.json:
+f = open(r"D:\datum\aa_chatbot\simple_chatbot\prac\all_intents_js.json")
+dt = json.load(f)
+st.json(dt)
+
+
 
 
 
