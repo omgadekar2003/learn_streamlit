@@ -85,7 +85,7 @@ st.bar_chart(df)
 ###### Map plot:
 st.map()
 place_a = pd.DataFrame({
-  "Latitude" = [19.8762],
-  "Longitude"= [75.3433]
+  "Latitude" : [19.8762],
+  "Longitude": [75.3433]
 })
 
