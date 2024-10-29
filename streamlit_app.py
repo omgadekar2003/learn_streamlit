@@ -67,7 +67,7 @@ import json
 df = pd.DataFrame(np.random.randn(10,2), columns = ["prices","differences"])
 ####Line Chart:
 
-st.line_chart(df)
+st.line_chart(df,y=["prices"])
 
 
 
