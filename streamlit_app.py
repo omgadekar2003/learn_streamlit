@@ -75,7 +75,11 @@ st.area_chart(df,y=["diff"])
 #### Bar Chart:
 st.bar_chart(df)
 
+#### MatplotLib:
 
+fig, ax =plt.subplots()
+ax.scatter(np.arange(10),np.arange(10)**2)
+st.pyplot()
 
 
 
