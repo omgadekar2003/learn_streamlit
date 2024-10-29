@@ -77,9 +77,10 @@ st.bar_chart(df)
 
 #### MatplotLib:
 
-fig, ax =plt.subplots()
-ax.scatter(np.arange(10),np.arange(10)**2)
-st.pyplot()
+fig, ax = plt.subplots()
+#ax.scatter(np.arange(10),np.arange(10)**2)
+ax.hist(np.random.randn(100), bins =10)
+st.pyplot(fig)
 
 
 
