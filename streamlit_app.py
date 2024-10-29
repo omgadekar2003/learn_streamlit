@@ -67,10 +67,13 @@ import json
 df = pd.DataFrame(np.random.randn(10,2), columns = ["prices","diff"])
 ####Line Chart:
 
-#st.line_chart(df,y=["diff"])
+st.line_chart(df,y=["diff"])
 
 #### Area Chart:
-st.area_chart(df)
+st.area_chart(df,y=["diff"])
+
+#### Bar Chart:
+st.bar_chart(df)
 
 
 
