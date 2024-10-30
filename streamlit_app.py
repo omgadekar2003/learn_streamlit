@@ -164,12 +164,28 @@ import requests
 
 
 ##### Checkbox:
-ck= st.checkbox("I agree to buy google", value =False)
-if ck == True:
-  st.write("Aggrement is Done")
-else:
-  st.write("Aggrement is Not Done")
+# ck= st.checkbox("I agree to buy google", value =False)
+# if ck == True:
+#   st.write("Aggrement is Done")
+# else:
+#   st.write("Aggrement is Not Done")
 
+
+##### Radio Buttons:
+
+option = st.radio(
+  label = "Order your food",
+  options = ("Vadapav","Kachori","Dabeli")
+  ) 
+if option == "Vadapav":
+  st.wrtie("Vadapav kha")
+  
+elif option == "Kachori":
+  st.wrtie("Kachori kha")
+
+elif option == "Dabeli":
+  st.wrtie("dabeli kha")
+  
 
 
 
