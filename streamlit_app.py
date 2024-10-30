@@ -106,9 +106,22 @@ import time
 
 # st.button("Click me", on_click = fn)
   
-###--
+###-- Download Button
 
 df = pd.DataFrame(np.random.randn(10,2), columns=["col1","col2"])
-st.write(df)
+#st.write(df)
+data = df.to_csv().encode("utf-8")
+           
+st.download_button(
+   label="Download Code",
+   data = data,
+  file_name = "Gesture_Based_Game_Control",
+  mime = "text"
+)
+
+
+
+
+
 
 
