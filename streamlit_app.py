@@ -164,11 +164,11 @@ import requests
 
 
 ##### Checkbox:
-ck= st.checkbox("I agree to buy google")
+ck= st.checkbox("I agree to buy google", value =False)
 if ck == True:
-  st.write("Arggrement is Done")
+  st.write("Aggrement is Done")
 else:
-  st.write("Aggrement isNot Done")
+  st.write("Aggrement is Not Done")
 
 
 
