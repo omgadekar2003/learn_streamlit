@@ -58,22 +58,22 @@
 # st.json(dt,expanded = False)
 #########################################################################
 # TUTORIAL 3: streamlit st.line_chart , st.bar_chart , st.pyplot , st.map
-import streamlit as st
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import json
+# import streamlit as st
+# import numpy as np
+# import pandas as pd
+# import matplotlib.pyplot as plt
 
-df = pd.DataFrame(np.random.randn(10,2), columns = ["prices","diff"])
+
+# df = pd.DataFrame(np.random.randn(10,2), columns = ["prices","diff"])
 ####Line Chart:
 
-st.line_chart(df,y=["diff"])
+# st.line_chart(df,y=["diff"])
 
-#### Area Chart:
-st.area_chart(df,y=["diff"])
+# #### Area Chart:
+# st.area_chart(df,y=["diff"])
 
-#### Bar Chart:
-st.bar_chart(df)
+# #### Bar Chart:
+# st.bar_chart(df)
 
 #### MatplotLib:
 
@@ -83,9 +83,18 @@ st.bar_chart(df)
 #st.pyplot(fig)
 
 ###### Map plot:
-st.map()
-place_a = pd.DataFrame({
-  "Latitude" : [19.8762],
-  "Longitude": [75.3433]
-})
+# st.map()
+# place_a = pd.DataFrame({
+#   "Latitude" : [19.8762],
+#   "Longitude": [75.3433]
+# })
 
+import streamlit as st
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import time
+
+
+pr = st.button("Click me")
+st.write(pr)
