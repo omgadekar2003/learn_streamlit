@@ -273,21 +273,32 @@ from datetime import time
 
 #######enter email and pass:
 
-txt = st.text_input(
-  label = "enter your email",
-  max_chars = 50, 
-  placeholder = "Email here" 
-)
-st.write(txt)
+# txt = st.text_input(
+#   label = "enter your email",
+#   max_chars = 50, 
+#   placeholder = "Email here" 
+# )
+# st.write(txt)
 
-passw = st.text_input(
-  label = "enter your password",
-  max_chars = 20,
-  placeholder  = "type pass here",
-  type ="password"
-)
-st.write(passw)
+# passw = st.text_input(
+#   label = "enter your password",
+#   max_chars = 20,
+#   placeholder  = "type pass here",
+#   type ="password"
+# )
+# st.write(passw)
 
+######## Number Input:
+
+ num = st.text_input(
+   label = "enter your Weight",
+   min_value = 40,
+   max_value = 80,
+   value = 65,
+   step =1,
+   placeholder = "write Weight here" 
+ )
+ st.write(num)
 
 
 
