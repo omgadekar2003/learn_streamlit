@@ -241,10 +241,24 @@ from datetime import time
 
 #3. Time Range Slider: Ex. Appointment:
 
-appointment = st.slider(
-   label= "Your Appointment:",
-   value = (time(10,15),time(17,30))
- )
-st.write(appointment)
+#appointment = st.slider(
+#   label= "Your Appointment:",
+#   value = (time(10,15),time(17,30))
+# )
+#st.write(appointment)
+
+###### Select Slider ########
+
+option = st.select_slider(
+  label="choose color"
+  options = ("red","yellow","green")
+)
+st.write(option)
+
+
+
+
+
+
 
 
