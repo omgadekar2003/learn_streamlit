@@ -290,15 +290,15 @@ from datetime import time
 
 ######## Number Input:
 
- num = st.number_input(
+ weight = st.number_input(
    label = "enter your Weight",
    min_value = 40,
    max_value = 80,
    value = 65,
-   step =1,
-   placeholder = "write Weight here" 
+   step = 1,
+   # placeholder = "write Weight here" 
  )
- st.write(num)
+ st.write(weight)
 
 
 
