@@ -230,14 +230,21 @@ from datetime import time
 
 # st.write(num)
 
-# 2. Range:
-num = st.slider(
-  label= "Ladki Bahin Yojana Age ",
-  min_value = 18,
-  max_value = 120,
-  value = (40,60),
-  step = 1
-)
+# 2. Range Slider:
+# num = st.slider(
+#   label= "Ladki Bahin Yojana Age ",
+#   min_value = 18,
+#   max_value = 120,
+#   value = (40,60),
+#   step = 1
+# )
 
+#3. Time Range Slider: Ex. Appointment:
+
+appointment = st.slider(
+   label= "Your Appointment:",
+   value = (time(10,15),time(17,30))
+ )
+st.write(appointment)
 
 
