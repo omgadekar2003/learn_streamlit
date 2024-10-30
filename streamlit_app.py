@@ -131,8 +131,8 @@ import time
 # )
 
 ### open jpg file:
-https://github.com/omgadekar2003/MusicBot/blob/main/20220503_112329.jpg
-20220503_112329.jpg
+# https://github.com/omgadekar2003/MusicBot/blob/main/20220503_112329.jpg
+# 20220503_112329.jpg
 file = open("20220503_112329.jpg")
 btn = st.download_button(
   label = "Download Image",
