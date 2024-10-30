@@ -267,7 +267,7 @@ from datetime import time
 txt = st.text_input(
   label = "enter your email:",
   max_chars = 50, 
-  place_holder = "Email here 
+  place_holder = "Email here" 
 )
 
 st.write(txt)
