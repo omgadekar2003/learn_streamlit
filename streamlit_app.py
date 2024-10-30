@@ -201,7 +201,7 @@
 #   Input widgets part 2 
 
 import streamlit as st
-from datatime import time
+from datetime import time
 # import numpy as np
 # import pandas as pd
 # import matplotlib.pyplot as plt
