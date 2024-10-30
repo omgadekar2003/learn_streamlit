@@ -96,7 +96,17 @@ import matplotlib.pyplot as plt
 import time
 
 
-pr = st.button("Click me")
+# pr = st.button("Click me")
 #st.write(pr)
-if pr == True:
+#if pr == True:
+  #st.write(time.time())
+
+def fn():
   st.write(time.time())
+
+st.button("Click me", on_click = fn)
+  
+
+
+
+
