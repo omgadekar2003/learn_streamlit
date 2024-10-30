@@ -122,12 +122,21 @@ import time
 
 ### For Text file Download
 
-txt = "My name os Om Gadekar"
-st.download_button(
-   label="Download Code",
-   data = txt,
-   file_name="code",
-   mime = "text"
+# txt = "My name os Om Gadekar"
+# st.download_button(
+#    label="Download Code",
+#    data = txt,
+#    file_name="code",
+#    mime = "text"
+# )
+
+### open jpg file:
+https://github.com/omgadekar2003/MusicBot/blob/main/20220503_112329.jpg
+20220503_112329.jpg
+file = open("20220503_112329.jpg")
+btn = st.download_button(
+  label = "Download Image",
+  data = file,
+  file_name = "om_the_guitarist.jpg",
+  mime = "image/jpg"
 )
-
-
