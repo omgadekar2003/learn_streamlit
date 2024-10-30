@@ -188,8 +188,7 @@ import requests
 ##### Select Button:
 option = st.selectbox(
   label = "Order your food",
-  options = ("Vadapav","Kachori","Dabeli"),
-  index=1
+  options = ("Vadapav","Kachori","Dabeli")
   ) 
 if option == "Vadapav":
   st.write("Vadapav kha")
