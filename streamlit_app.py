@@ -205,13 +205,25 @@ from datetime import time
 # import numpy as np
 # import pandas as pd
 # import matplotlib.pyplot as plt
-# import time
-# import requests
 
-option = st.multiselect(
-  label ="my name is: ",
-  options = ("om","sachin","og"),
-  default = ("om")
+
+### MultiSelect: ###
+# option = st.multiselect(
+#   label ="my name is: ",
+#   options = ("om","sachin","og"),
+#   default = ("om")
+# )
+
+# st.write(option)
+
+###### Slider #####
+
+num = st.slider(
+  label= "Your age",
+  min_value = 18,
+  max_value = 120,
+  value = 20,
+  step = 1
 )
 
-st.write(option)
+st.write(num)
