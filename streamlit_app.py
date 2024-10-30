@@ -265,11 +265,10 @@ from datetime import time
 
 #######Text input:
 txt = st.text_input(
-  label = "enter your email:",
+  label = "enter your email",
   max_chars = 50, 
-  place_holder = "Email here" 
+  placeholder = "Email here" 
 )
-
 st.write(txt)
 
 
