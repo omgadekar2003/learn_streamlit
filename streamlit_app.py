@@ -95,6 +95,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import time
 
-
+st.write(time.time())
 pr = st.button("Click me")
 st.write(pr)
