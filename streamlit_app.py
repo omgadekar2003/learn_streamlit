@@ -178,13 +178,11 @@ option = st.radio(
   options = ("Vadapav","Kachori","Dabeli")
   ) 
 if option == "Vadapav":
-  st.wrtie("Vadapav kha")
-  
+  st.write("Vadapav kha")
 elif option == "Kachori":
-  st.wrtie("Kachori kha")
-
+  st.write("Kachori kha")
 elif option == "Dabeli":
-  st.wrtie("dabeli kha")
+  st.write("dabeli kha")
   
 
 
