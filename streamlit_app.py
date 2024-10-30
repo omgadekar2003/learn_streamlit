@@ -95,18 +95,20 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import time
 
-
+#### --- BUTTON
 # pr = st.button("Click me")
 #st.write(pr)
 #if pr == True:
   #st.write(time.time())
 
-def fn():
-  st.write(time.time())
+# def fn():
+#   st.write(time.time())
 
-st.button("Click me", on_click = fn)
+# st.button("Click me", on_click = fn)
   
+###--
 
-
+df = pd.DataFrame(np.random.randn(10,2), columns=["col1","col2"])
+st.write(df)
 
 
