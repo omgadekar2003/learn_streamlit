@@ -89,12 +89,12 @@
 #   "Longitude": [75.3433]
 # })
 
-import streamlit as st
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import time
-import requests
+# import streamlit as st
+# import numpy as np
+# import pandas as pd
+# import matplotlib.pyplot as plt
+# import time
+# import requests
 
 #### --- BUTTON
 # pr = st.button("Click me")
@@ -197,7 +197,21 @@ import requests
 # elif option == "Dabeli":
 #   st.write("dabeli kha")
 
+############################ tutorial 5:
+#   Input widgets part 2 
 
+import streamlit as st
+from datatime import time
+# import numpy as np
+# import pandas as pd
+# import matplotlib.pyplot as plt
+# import time
+# import requests
 
+option = st.multiselect(
+  label ="my name is: ",
+  options = ("om","sachin","og"),
+  default = ("om")
+)
 
-
+st.write(option)
