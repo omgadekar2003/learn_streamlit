@@ -200,8 +200,10 @@
 ############################ tutorial 5:
 #   Input widgets part 2 
 
-import streamlit as st
-from datetime import time
+# import streamlit as st
+# from datetime import time
+# this import for all below code
+
 # import numpy as np
 # import pandas as pd
 # import matplotlib.pyplot as plt
@@ -290,15 +292,15 @@ from datetime import time
 
 ######## Number Input:
 
-weight = st.number_input(
-  label = "enter your Weight",
-  min_value = 40,
-  max_value = 80,
-  value = 65,
-  step = 1,
-   # placeholder = "write Weight here" 
-)
-st.write(weight)
+# weight = st.number_input(
+#   label = "enter your Weight",
+#   min_value = 40,
+#   max_value = 80,
+#   value = 65,
+#   step = 1,
+#    # placeholder = "write Weight here" 
+# )
+# st.write(weight)
 
 
 
