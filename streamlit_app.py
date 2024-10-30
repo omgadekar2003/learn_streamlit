@@ -175,7 +175,8 @@ import requests
 
 option = st.radio(
   label = "Order your food",
-  options = ("Vadapav","Kachori","Dabeli")
+  options = ("Vadapav","Kachori","Dabeli"),
+  index=-1
   ) 
 if option == "Vadapav":
   st.write("Vadapav kha")
