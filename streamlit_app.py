@@ -263,13 +263,30 @@ from datetime import time
 # )
 # st.write("From", s_color, "to", e_color)
 
-#######Text input:
+#######Text input:  # enter Email
+# txt = st.text_input(
+#   label = "enter your email",
+#   max_chars = 50, 
+#   placeholder = "Email here" 
+# )
+# st.write(txt)
+
+#######enter email and pass:
+
 txt = st.text_input(
   label = "enter your email",
   max_chars = 50, 
   placeholder = "Email here" 
 )
 st.write(txt)
+
+passw = st.text_input(
+  label = "enter your password",
+  max_chars = 20,
+  placeholder  = "type pass here",
+  type ="password"
+)
+st.write(passw)
 
 
 
