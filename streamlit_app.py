@@ -258,7 +258,7 @@ from datetime import time
 ####### slect slider for between two colors:
 s_color, e_color = st.select_slider(
    label="choose color range:",
-   options = ("red","yellow","green")
+   options = ("red","yellow","green"),
   value = ("red","yellow")
  )
  st.write("from ", s_color," to ", e_color )
