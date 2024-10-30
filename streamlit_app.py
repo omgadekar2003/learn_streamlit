@@ -261,7 +261,7 @@ s_color, e_color = st.select_slider(
    options = ("red","yellow","green"),
   value = ("red","yellow")
  )
- st.write("from ", s_color," to ", e_color )
+ st.write("from" , s_color , " to" , e_color )
 
 
 
