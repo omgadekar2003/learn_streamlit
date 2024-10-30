@@ -290,7 +290,7 @@ from datetime import time
 
 ######## Number Input:
 
- num = st.text_input(
+ num = st.number_input(
    label = "enter your Weight",
    min_value = 40,
    max_value = 80,
