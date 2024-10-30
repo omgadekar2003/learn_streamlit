@@ -217,13 +217,27 @@ from datetime import time
 # st.write(option)
 
 ###### Slider #####
+#1. used as for checking in between min max
+#2. Range
 
+# num = st.slider(
+#   label= "Your age",
+#   min_value = 18,
+#   max_value = 120,
+#   value = 20,
+#   step = 1
+# )
+
+# st.write(num)
+
+# 2. Range:
 num = st.slider(
-  label= "Your age",
+  label= "Ladki Bahin Yojana Age ",
   min_value = 18,
   max_value = 120,
-  value = 20,
+  value = (40,60),
   step = 1
 )
 
-st.write(num)
+
+
