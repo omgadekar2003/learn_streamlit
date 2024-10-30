@@ -250,7 +250,7 @@ from datetime import time
 ###### Select Slider ########
 
 option = st.select_slider(
-  label="choose color"
+  label="choose color",
   options = ("red","yellow","green")
 )
 st.write(option)
