@@ -145,9 +145,12 @@ import requests
 
 
 
-### Download Image from URL
+### Download Image from URL with headers
 url = "https://signature.freefire-name.com/img.php?f=3&t=Om%20Gadekar"
-response = requests.get(url)
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+}
+response = requests.get(url, headers=headers)
 if response.status_code == 200:
     image_data = response.content
     st.download_button(
