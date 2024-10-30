@@ -256,12 +256,21 @@ from datetime import time
 # st.write(option)
 
 ####### slect slider for between two colors:
-s_color, e_color = st.select_slider(
-    label="Choose color range:",
-    options=("red", "yellow", "green"),
-    value=("red", "yellow")
+# s_color, e_color = st.select_slider(
+#     label="Choose color range:",
+#     options=("red", "yellow", "green"),
+#     value=("red", "yellow")
+# )
+# st.write("From", s_color, "to", e_color)
+
+#######Text input:
+txt = st.text_input(
+  label = "enter your email:",
+  max_chars = 50, 
+  place_holder = "Email here 
 )
-st.write("From", s_color, "to", e_color)
+
+st.write(txt)
 
 
 
