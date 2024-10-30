@@ -186,16 +186,16 @@ import requests
 #   st.write("dabeli kha")
 
 ##### Select Button:
-option = st.selectbox(
-  label = "Order your food",
-  options = ("Vadapav","Kachori","Dabeli")
-  ) 
-if option == "Vadapav":
-  st.write("Vadapav kha")
-elif option == "Kachori":
-  st.write("Kachori kha")
-elif option == "Dabeli":
-  st.write("dabeli kha")
+# option = st.selectbox(
+#   label = "Order your food",
+#   options = ("Vadapav","Kachori","Dabeli")
+#   ) 
+# if option == "Vadapav":
+#   st.write("Vadapav kha")
+# elif option == "Kachori":
+#   st.write("Kachori kha")
+# elif option == "Dabeli":
+#   st.write("dabeli kha")
 
 
 
