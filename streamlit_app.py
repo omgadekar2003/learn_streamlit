@@ -133,7 +133,7 @@ import time
 ### open jpg file:
 # https://github.com/omgadekar2003/MusicBot/blob/main/20220503_112329.jpg
 # 20220503_112329.jpg
-file = open("https://github.com/omgadekar2003/MusicBot/blob/main/20220503_112329.jpg")
+file = open("https://signature.freefire-name.com/img.php?f=3&t=Om%20Gadekar")
 btn = st.download_button(
   label = "Download Image",
   data = file,
