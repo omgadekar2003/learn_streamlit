@@ -249,14 +249,19 @@ from datetime import time
 
 ###### Select Slider ########
 
-option = st.select_slider(
-  label="choose color",
-  options = ("red","yellow","green")
-)
-st.write(option)
+# option = st.select_slider(
+#   label="choose color",
+#   options = ("red","yellow","green")
+# )
+# st.write(option)
 
-
-
+####### slect slider for between two colors:
+s_color, e_color = st.select_slider(
+   label="choose color range:",
+   options = ("red","yellow","green")
+  value = ("red","yellow")
+ )
+ st.write("from ", s_color," to ", e_color )
 
 
 
