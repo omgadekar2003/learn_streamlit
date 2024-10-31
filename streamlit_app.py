@@ -216,6 +216,9 @@
 ################ Lecture 6 : Input Widgert part 3:
 # text_area, date_input, time_input, file_uploader, camera_input , color_pick
 import streamlit as st
+import datetime
+
+### text_area:
 txt = st.text_area(
   label = "Write Something Interesting",
   height = 200,
@@ -224,6 +227,13 @@ txt = st.text_area(
 )
 st.write(txt)
 
+### date_input:
+
+dte = st.date_input(
+  label = "Enter DOB",
+  value = datetime.date(2024,10,31)
+)
+st.write(dte)
 
 
 
