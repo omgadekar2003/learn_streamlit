@@ -80,6 +80,6 @@ from PIL import Image
 
 ####### audio file:
 
-st.audio("")
+st.audio("https://github.com/omgadekar2003/learn_streamlit/blob/main/fein.mp3")
 
 
