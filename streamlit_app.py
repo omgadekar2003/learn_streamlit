@@ -262,7 +262,14 @@ if fle:
     string_data = stringio.read()
     st.write(string_data)
 
+####### Camera Input:
 
+pict = st.camera_input(
+  "take a Pic"
+)
+if pict:
+  img = image.open(pict)
+  st.write(np.array(img).shape)
 
 
 
