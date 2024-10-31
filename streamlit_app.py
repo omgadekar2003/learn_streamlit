@@ -244,11 +244,19 @@ tme = st.time_input(
 st.write(tme)
 
 ###### File Uploader:
+##IMPORT
+from PIL import Image
+import numpy as np
+
 fle = st.file_uploader(
 label = "Upload File"  
 )
 if fle:
   st.write(fle.type)
+  if "image" in fle.type:
+    # if image show image size
+    img = Image.open(fle)
+    st.write(np.array(img).shape)
 
 
 
