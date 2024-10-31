@@ -235,6 +235,13 @@ dte = st.date_input(
 )
 st.write(dte)
 
+###Time_Input:
+
+tme = st.time_input(
+  label = "Enter time",
+  value = datetime.time(10,15)
+)
+st.write(tme)
 
 
 
