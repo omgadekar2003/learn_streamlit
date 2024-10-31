@@ -1,7 +1,7 @@
 ################ Lecture 6 : Input Widgert part 3:
 # text_area, date_input, time_input, file_uploader, camera_input , color_pick
-import streamlit as st
-import datetime
+# import streamlit as st
+# import datetime
 
 ### text_area:
 # txt = st.text_area(
@@ -57,10 +57,10 @@ import datetime
 #   st.write(np.array(img).shape)
 
 ###### Color Picker:
-clr = st.color_picker(
-  "select  color you want"
-)
-st.write("You picked color",clr)
+# clr = st.color_picker(
+#   "select  color you want"
+# )
+# st.write("You picked color",clr)
 
 ############## Lecture 7:streamlit media elements - st.image , st.audio , st.video
 import streamlit as st
