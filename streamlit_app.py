@@ -213,6 +213,29 @@
 # )
 # st.write(weight)
 
+################ Lecture 6 : Input Widgert part 3:
+# text_area, date_input, time_input, file_uploader, camera_input , color_pick
+
+txt = st.text_area(
+  label = "Write Something Interesting",
+  height = 200,
+  max_chars =100,
+  placeholder = "Write here"
+)
+st.write(txt)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
