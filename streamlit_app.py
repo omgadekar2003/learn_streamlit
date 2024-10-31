@@ -247,7 +247,8 @@ st.write(tme)
 fle = st.file_uploader(
 label = "Upload File"  
 )
-st.write(fle.type)
+if fle:
+  st.write(fle.type)
 
 
 
