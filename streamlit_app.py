@@ -67,15 +67,15 @@ import streamlit as st
 from PIL import Image
 # import cv2
 
-# ### streamlit media elements - st.image
-# img = Image.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkESVsBno9V8sbKGdJU6EpS_TzIJKWZxR4JQ&s")
-# # show image:
-# st.image(
-#   img,
-#   caption = "OG",
-#   width =100,
-#   channels = "RGB"
-# )
+### streamlit media elements - st.image
+img = Image.open("deogiri.png")
+# show image:
+st.image(
+  img,
+  caption = "OG",
+  width =100,
+  channels = "RGB"
+)
 
 
 ####### audio file:
