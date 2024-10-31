@@ -215,7 +215,7 @@
 
 ################ Lecture 6 : Input Widgert part 3:
 # text_area, date_input, time_input, file_uploader, camera_input , color_pick
-
+import streamlit as st
 txt = st.text_area(
   label = "Write Something Interesting",
   height = 200,
