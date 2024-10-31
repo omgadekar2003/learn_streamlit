@@ -247,7 +247,7 @@ st.write(tme)
 ##IMPORT
 from PIL import Image
 import numpy as np
-
+from io import StringIO 
 fle = st.file_uploader(
 label = "Upload File"  
 )
@@ -257,6 +257,10 @@ if fle:
     # if image show image size
     img = Image.open(fle)
     st.write(np.array(img).shape)
+  elif fle.type == "text/plain":
+    stringio = StringIO(fle.getvalue().decode("utf-8"))
+    string_data = stringio.read()
+    st.write(string_data)
 
 
 
