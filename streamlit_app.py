@@ -82,4 +82,6 @@ from PIL import Image
 
 st.audio("fein.mp3", start_time = 27)
 ###### video file###:
-st.video("VID-20220808-WA0001.mp4")
+st.video("VID-20220808-WA0001.mp4",
+        width= 100,
+        caption = "chal chal ke dikha")
