@@ -80,6 +80,6 @@ from PIL import Image
 
 ####### audio file:
 
-st.audio("fein.mp3")
+st.audio("fein.mp3", start_time = 27)
 
 
