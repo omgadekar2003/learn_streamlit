@@ -243,6 +243,11 @@ tme = st.time_input(
 )
 st.write(tme)
 
+###### File Uploader:
+fle = st.file_uploader(
+label = "Upload File"  
+)
+st.write(fle.type)
 
 
 
