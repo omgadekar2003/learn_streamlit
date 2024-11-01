@@ -48,12 +48,6 @@ import time
 # st.snow()
 # st.warning("Warning: I'm Feining for more")
 
-####### Exception:
-# st.balloons()
-# st.snow()
-# st.exception("exception: I'm Feining for more")
-
-
 ####### Info:
 # st.balloons()
 # st.snow()
@@ -61,6 +55,13 @@ import time
 
 
 ####### Success:
-st.balloons()
-st.snow()
-st.success("Today diwali in my house ")
+# st.balloons()
+# st.snow()
+# st.success("Today diwali in my house ")
+
+
+####### Exception:
+# st.balloons()
+# st.snow()
+e= RuntimeError("OG")
+st.exception("exception: I'm Feining for more",e)
