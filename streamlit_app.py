@@ -57,4 +57,4 @@ import time
 ####### Info:
 st.balloons()
 st.snow()
-st.Info("Information: Today diwali in my house ")
+st.info("Information: Today diwali in my house ")
