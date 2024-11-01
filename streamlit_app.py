@@ -31,20 +31,25 @@ import datetime
 
 ##########st.echo:
 
-def summ(a,b):
- return a+b
+# def summ(a,b):
+#  return a+b
 
-with st.echo():
- def mul(a,b):
-  return a*b
- a=10
- b=20
- su = summ(a,b)
- mu = mul(a,b)
- st.write(su,mu)
+# with st.echo():
+#  def mul(a,b):
+#   return a*b
+#  a=10
+#  b=20
+#  su = summ(a,b)
+#  mu = mul(a,b)
+#  st.write(su,mu)
 
-st.write("outside of Fucking Echo")
-  
+# st.write("outside of Fucking Echo")
+# print like geek for geeks
+
+#########st.help:
+
+st.hele(datetime)
+st.help(datetime.time)
   
  
 
