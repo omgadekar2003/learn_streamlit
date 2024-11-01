@@ -61,8 +61,12 @@ import time
 
 
 ####### Exception:
-st.balloons()
-st.snow()
-e= RuntimeError("OG")
-st.write("exception: I'm Feining for more")
-st.exception(e)
+# st.balloons()
+# st.snow()
+# e= RuntimeError("OG")
+# st.write("exception: I'm Feining for more")
+# st.exception(e)
+
+
+
+st.stop , st.form , st.set_page_config , st.echo , st.help
