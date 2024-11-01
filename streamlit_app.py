@@ -22,9 +22,30 @@ import datetime
 
 ##########st.set_page_config:
 
-st.set_page_config(
- page_title = "OG APP",
- layout = "wide"
-)
-st.write("OmG")
+# st.set_page_config(
+#  page_title = "OG APP",
+#  layout = "wide"
+# )
+# st.write("OmG")
+
+
+##########st.echo:
+
+def summ(a,b):
+ return a+b
+
+with st.echo():
+ def mul(a,b):
+  return a*b
+ a=10
+ b=20
+ su = summ(a,b)
+ mu = mul(a,b)
+ st.write(su,mu)
+
+st.write("outside of Fucking Echo")
+  
+  
+ 
+
 
