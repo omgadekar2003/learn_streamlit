@@ -29,11 +29,28 @@ import streamlit as st
 # col2.write("walk")
 
 ########## st.tabs:::
-tab1 , tab2  = st.tabs(["audio" , "video"])
-tab1.audio = ("fein.mp3")
-tab1.write("I'm feining for more")
-tab2.video = ("VID-20220808-WA0001.mp4")
-tab2.write("walk")
+# tab1 , tab2  = st.tabs(["audio" , "video"])
+# tab1.audio = ("fein.mp3")
+# tab1.write("I'm feining for more")
+# tab2.video = ("VID-20220808-WA0001.mp4")
+# tab2.write("walk")
+
+######
+
+# Creating tabs for audio and video
+tab1, tab2 = st.tabs(["Audio", "Video"])
+
+# Displaying audio in the first tab
+with tab1:
+    st.write("Playing audio file:")
+    st.audio("fein.mp3", format="audio/mp3")
+    st.write("I'm feining for more")
+
+# Displaying video in the second tab
+with tab2:
+    st.write("Playing video file:")
+    st.video("VID-20220808-WA0001.mp4")
+    st.write("Walk")
 
 
 
