@@ -19,7 +19,7 @@ df1 = pd.DataFrame(np.random.randn(10,2), columns =["col1","col2"])
 #### visual on continuous data like share market:
 ##adding 5 Rows after every 5 seconds:
 my_chart =st.line_chart(df1)
-for i in range(5):
+for i in range(10):
     time.sleep(5)
     df2 = pd.DataFrame(np.random.randn(5,2), columns =["col1","col2"])
     my_chart.add_rows(df2)
