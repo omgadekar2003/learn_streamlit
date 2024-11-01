@@ -22,11 +22,11 @@ import streamlit as st
 
 ######### st.columns:
 #[1,2] is for column ration on screen:
-col1, col2 =st.columns([1,2],gap="small")
-col1.audio("fein.mp3")
-col1.write("I'm feining for more")
-col2.video("VID-20220808-WA0001.mp4")
-col2.write("walk")
+# col1, col2 =st.columns([1,2],gap="small")
+# col1.audio("fein.mp3")
+# col1.write("I'm feining for more")
+# col2.video("VID-20220808-WA0001.mp4")
+# col2.write("walk")
 
 ########## st.tabs:::
 # tab1 , tab2  = st.tabs(["audio" , "video"])
@@ -57,6 +57,14 @@ col2.write("walk")
 # exp = st.expander("see pic")
 # exp.write("see image")
 # exp.image("deogiri.png",width = 400)
+
+######## st.container:
+
+cont = st.container()
+st.write(1)
+st.write(2)
+st.write(3)
+
 
 
 
