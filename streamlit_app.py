@@ -1,7 +1,7 @@
-#############Lecture 9:  st.stop , st.form , st.set_page_config , st.echo , st.help
+#############Lecture 10:  st.stop , st.form , st.set_page_config , st.echo , st.help
 
-import streamlit as st
-import datetime
+# import streamlit as st
+# import datetime
 ########### st.stop:
 
 # email = st.text_input("Enter Email")
@@ -48,9 +48,9 @@ import datetime
 
 #########st.help:
 
-st.help(datetime)
-st.help(datetime.time)
+# st.help(datetime)
+# st.help(datetime.time)
   
- 
+#############Lecture 11 | Mutate charts, add_rows.
 
 
