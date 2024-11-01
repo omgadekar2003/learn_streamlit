@@ -38,8 +38,12 @@ import time
 
 
 ######## ERROR Message:
+# st.balloons()
+# st.snow()
+# st.error("I'm Feining for more")
 
+
+######## ERROR Message:
 st.balloons()
 st.snow()
-st.error("I'm Feining for more")
-
+st.warning("Warning: I'm Feining for more")
