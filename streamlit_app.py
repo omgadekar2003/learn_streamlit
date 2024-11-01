@@ -14,13 +14,14 @@ import time
 
 ####### Spinner / Buffer used when we are downloading something:
 
-with st.spinner("wait for it....."):
-  time.sleep(5)
+# with st.spinner("wait for it....."):
+#   time.sleep(5)
 
-st.write("wait over")
+# st.write("wait over")
 
 
-
+######### Balloons:
+st.balloons()
 
 
 
