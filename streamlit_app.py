@@ -29,7 +29,7 @@ import streamlit as st
 # col2.write("walk")
 
 ########## st.tabs:::
-tab1, tab2  = st.tabs(["audio","video"])
+tab1 , tab2  = st.tabs(["audio" , "video"])
 tab1.audio = ("fein.mp3")
 tab1.write("I'm feining for more")
 tab2.video = ("VID-20220808-WA0001.mp4")
