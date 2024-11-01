@@ -22,11 +22,18 @@ import streamlit as st
 
 ######### st.columns:
 
-col1, col2 =st.columns(2,gap="small")
-col1.audio("fein.mp3")
-col1.write("I'm feining for more")
-col2.video("VID-20220808-WA0001.mp4")
-col2.write("walk")
+# col1, col2 =st.columns(2,gap="small")
+# col1.audio("fein.mp3")
+# col1.write("I'm feining for more")
+# col2.video("VID-20220808-WA0001.mp4")
+# col2.write("walk")
+
+########## st.tabs:::
+tab1, tab2  = st.tabs(["audio","video"])
+tab1.audio = ("fein.mp3")
+tab1.write("I'm feining for more")
+tab2.video = ("VID-20220808-WA0001.mp4")
+tab2.write("walk")
 
 
 
