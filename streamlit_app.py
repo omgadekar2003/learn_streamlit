@@ -49,6 +49,12 @@ import time
 # st.warning("Warning: I'm Feining for more")
 
 ####### Exception:
+# st.balloons()
+# st.snow()
+# st.exception("exception: I'm Feining for more")
+
+
+####### Info:
 st.balloons()
 st.snow()
-st.exception("exception: I'm Feining for more")
+st.Info("Information: Today diwali in my house ")
