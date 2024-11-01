@@ -1,4 +1,4 @@
-#############Lecture 9: Status elements - st.progress, spinner, balloons, error, warning, exception
+#############Lecture 9: Status elements - st.progress, spinner, balloons, error, warning, exception, info,success
 ########### Status element:::
 
 import streamlit as st
@@ -55,6 +55,12 @@ import time
 
 
 ####### Info:
+# st.balloons()
+# st.snow()
+# st.info("Information: Today diwali in my house ")
+
+
+####### Success:
 st.balloons()
 st.snow()
-st.info("Information: Today diwali in my house ")
+st.success("Today diwali in my house ")
