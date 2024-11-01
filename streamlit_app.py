@@ -37,21 +37,26 @@ import streamlit as st
 
 ######
 
-# Creating tabs for audio and video
-tab1, tab2 = st.tabs(["Audio", "Video"])
+# # Creating tabs for audio and video
+# tab1, tab2 = st.tabs(["Audio", "Video"])
 
-# Displaying audio in the first tab
-with tab1:
-    st.write("Playing audio file:")
-    st.audio("fein.mp3", format="audio/mp3")
-    st.write("I'm feining for more")
+# # Displaying audio in the first tab
+# with tab1:
+#     st.write("Playing audio file:")
+#     st.audio("fein.mp3", format="audio/mp3")
+#     st.write("I'm feining for more")
 
-# Displaying video in the second tab
-with tab2:
-    st.write("Playing video file:")
-    st.video("VID-20220808-WA0001.mp4")
-    st.write("Walk")
+# # Displaying video in the second tab
+# with tab2:
+#     st.write("Playing video file:")
+#     st.video("VID-20220808-WA0001.mp4")
+#     st.write("Walk")
 
+####### st.expander:
+
+exp = st.expander("see pic")
+exp.write("see image")
+exp.image("deogiri.png",width = 400)
 
 
 
