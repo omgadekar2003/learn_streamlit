@@ -61,8 +61,8 @@ import time
 
 
 ####### Exception:
-# st.balloons()
-# st.snow()
+st.balloons()
+st.snow()
 e= RuntimeError("OG")
 st.write("exception: I'm Feining for more")
 st.exception(e)
