@@ -48,7 +48,7 @@ import datetime
 
 #########st.help:
 
-st.hele(datetime)
+st.help(datetime)
 st.help(datetime.time)
   
  
