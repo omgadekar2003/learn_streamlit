@@ -26,5 +26,5 @@ st.set_page_config(
  page_title = "OG APP",
  layout = "wide"
 )
-st.write(""OmG)
+st.write("OmG")
 
