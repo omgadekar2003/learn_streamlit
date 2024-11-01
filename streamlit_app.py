@@ -6,7 +6,7 @@ import numpy as np
 df1 = pd.DataFrame(np.random.randn(10,2), columns =["col1","col2"])
 #my_table = st.table(df1)
 ##adding data:
-df2 = pd.DataFrame(np.random.randn(5,2), columns =["col1","col2"])
+#df2 = pd.DataFrame(np.random.randn(5,2), columns =["col1","col2"])
 #my_table.add_rows(df2)
 #st.line_chart(df1)
 ## on start inp[ut data
