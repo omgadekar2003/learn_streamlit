@@ -22,7 +22,7 @@ import time
 
 ######### Balloons:
 st.balloons()
-
+st.snow()
 
 
 
