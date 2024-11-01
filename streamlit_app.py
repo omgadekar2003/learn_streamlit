@@ -1,5 +1,5 @@
 #############Lecture 8:Layout elements. st.sidebar, st.columns, st.tabs, st.expander, st.container
-###########
+########### All about Layout:::
 # choice = st.sidebar.radio(
 #   label = "GBGC",
 #   options =("home","Code Run Manual/Download","Feedback","Aboout Us") 
@@ -60,13 +60,13 @@ import streamlit as st
 
 ######## st.container:
 
-cont = st.container()
-st.write("og")
-cont.write("om")
-st.write("I'm Feining for more")
-st.write("The End")
-cont.write("haribhau")
-cont.write("gadekar")
+# cont = st.container()
+# st.write("og")
+# cont.write("om")
+# st.write("I'm Feining for more")
+# st.write("The End")
+# cont.write("haribhau")
+# cont.write("gadekar")
 
 
 
