@@ -58,6 +58,20 @@ import streamlit as st
 # st.session_state 
 
 #### input widget as session_state:
-st.session_state
-st.text_input("Name", key ="name")
-st.session_state
+# st.session_state
+# st.text_input("Name", key ="name")
+# st.session_state
+
+####### Callback on session_state :
+def form_callback():
+  st.write(st.session_state["my_slider"])
+  st.write(st.session_state["my_checkbox"])
+
+with st.form(key = "Feddback Form"):
+  slider_input = st.slider("Rate Us", 1, 5, 1, key = "my_slider")
+  checkbox_input = st.checkbox("Like it or Not", key = "my_checkobx")
+  submit_button = st.form_submit_button("submit",on_click = form_callback)
+
+
+
+
