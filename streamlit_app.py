@@ -30,12 +30,17 @@ import streamlit as st
 
 #Initialize session state:
 #st.write(st.session_state)
-st.session_state
-if "key" not in st.session_state:
- st.session_state["key"] = 1
-st.session_state
+# st.session_state
+# if "key" not in st.session_state:
+#  st.session_state["key"] = 1
+# st.session_state
 
+###Change session state value:
 
+st.session_state
+if "key" in st.session_state:
+ st.session_state["key"]=2
+ st.session_state
 
 
 
