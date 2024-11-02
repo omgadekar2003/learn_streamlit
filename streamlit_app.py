@@ -43,9 +43,17 @@ import streamlit as st
 #  st.session_state
 
 ### Delete Session state:
-st.session_state
-if "key" in st.session_state:
- del st.session_state["key"]
+# st.session_state
+# if "key" in st.session_state:
+#  del st.session_state["key"]
+# st.session_state 
+
+#### Bul Delete:
+st.session_state["k1"]=10
+st.session_state["k2"]=20
+
+st.session-state
+for k in st.session_state.keys():
+ del st.session_state[k]
 st.session_state 
- 
 
