@@ -59,5 +59,5 @@ import streamlit as st
 
 #### input widget as session_state:
 st.session_state
-st.input_text("Name", key ="name")
+st.text_input("Name", key ="name")
 st.session_state
