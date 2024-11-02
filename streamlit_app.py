@@ -10,6 +10,6 @@ import pandas as pd
 import torch
 import time
 from full_model import Net
-@st.cache_resources
-@st.cache_data
+#@st.cache_resources
+#@st.cache_data
 
