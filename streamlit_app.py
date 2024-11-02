@@ -67,9 +67,9 @@ def form_callback():
   st.write(st.session_state["my_slider"])
   st.write(st.session_state["my_checkbox"])
 
-with st.form(key = "Feddback Form"):
+with st.form(key = "Feedback Form"):
   slider_input = st.slider("Rate Us", 1, 5, 1, key = "my_slider")
-  checkbox_input = st.checkbox("Like it or Not", key = "my_checkobx")
+  checkbox_input = st.checkbox("Like it or Not", key = "my_checkbox")
   submit_button = st.form_submit_button("submit",on_click = form_callback)
 
 
