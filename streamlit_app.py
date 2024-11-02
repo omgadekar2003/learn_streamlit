@@ -45,7 +45,7 @@ import streamlit as st
 ### Delete Session state:
 st.session_state
 if "key" in st.session_state:
- del st.session_state["key"]=2
+ del st.session_state["key"]
 st.session_state 
  
 
