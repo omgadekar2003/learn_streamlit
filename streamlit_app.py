@@ -37,10 +37,15 @@ import streamlit as st
 
 ###Change session state value:
 
+# st.session_state
+# if "key" in st.session_state:
+#  st.session_state["key"]=2
+#  st.session_state
+
+### Delete Session state:
 st.session_state
 if "key" in st.session_state:
- st.session_state["key"]=2
- st.session_state
-
-
+ del st.session_state["key"]=2
+st.session_state 
+ 
 
