@@ -26,7 +26,7 @@
 #     my_chart.add_rows(df2)
 
 ######### Lecture 12 | Session states in Streamlit:
-
+import streamlit as st
 #Initialize session state:
 st.write(st.session_state)
  
