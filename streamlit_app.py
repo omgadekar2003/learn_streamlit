@@ -27,9 +27,13 @@
 
 ######### Lecture 12 | Session states in Streamlit:
 import streamlit as st
+
 #Initialize session state:
-st.write(st.session_state)
- 
+#st.write(st.session_state)
+st.session_state
+if "key" not in st.session_state:
+ st.session_state["key"] = 1
+st.session_state
 
 
 
